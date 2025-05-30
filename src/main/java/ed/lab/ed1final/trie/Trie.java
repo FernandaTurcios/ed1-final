@@ -59,7 +59,6 @@ public class Trie {
         word = word.trim();
         if (countWordsEqualTo(word) == 0) return;
 
-        // Guardamos el camino desde root hasta el nodo final
         TrieNode[] path = new TrieNode[word.length() + 1];
         TrieNode node = root;
         path[0] = node;
