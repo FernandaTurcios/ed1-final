@@ -86,3 +86,5 @@ public class Trie {
         }
     }
 }
+
+//push
